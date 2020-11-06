@@ -1,25 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom'
+import HomePage from './Pages/Home/HomePage.js';
+import AboutPage from './Pages/About/AboutPage.js';
+import ContactPage from './Pages/Contact/ContactPage';
+import SigninPage from './Pages/SignIn/SigninPage';
+import SignupPage from './Pages/Signup/SignupPage';
+import NavBar from './Content/NavBar/NavBar.js'
+import ArticlePage from './Pages/ArticlePage/ArticlePage.js';
 
-function App() {
+
+
+
+//import './App.css';
+
+const App =()=> {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Router>
+    <div>
+      <NavBar/>
+      <Route path='/' component={HomePage} exact />
+      <Route path='/about' component={AboutPage}/>
+      <Route path='/contact-me' component={ContactPage}/>
+      <Route path='/login' component={SigninPage}/>
+      <Route path='/signup' component={SignupPage}/>
+      <Route path='/article/:name' component = {ArticlePage}/>
+      
+      
     </div>
+    </Router>
+    
+    
+
+    </>
+
   );
 }
 

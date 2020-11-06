@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+
+
+.motherBox{
+    margin-top: 200px;
+  }
+
+.para{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;
+    margin-left: 300px;
+    color: wheat;
+  }
+  
+  .ghana{
+     width: 300px;
+  }
+
+  .title{
+      color: wheat;
+      margin-right: 460px;
+  }
+
+  .author{
+      color: wheat;
+      font-family: monospace;
+      margin-right: 810px;
+  }
+
+  .date{
+      color: wheat;
+      font-family: monospace;
+      margin-right: 850px;
+  }
+
+  .rm{
+      color: blue;
+      font-family: monospace;
+      margin-right: 864px;
+  }
+
+  .img{
+      width: 300px;
+      margin-left: 300px;
+  }
+
+  .caption{
+      color: wheat;
+      font-family: monospace;
+      margin-left: 100px;
+
+      }
+
+      .pals{
+          width: 100%;
+          display: flex;
+      }
+
+      .para2{
+        font-size: 20px;
+        padding-top: 20px;
+        text-align: justify;
+        margin-left: 400px;
+        color: wheat;
+      }
+      
+    
+    
+      .title2{
+          color: wheat;
+        
+      }
+    
+      .author2{
+          color: wheat;
+          font-family: monospace;
+         
+      }
+    
+      .date2{
+          color: wheat;
+          font-family: monospace;
+        
+      }
+    
+      .rm2{
+          color: blue;
+          font-family: monospace;
+       
+      }
+
+
+      .para3{
+        font-size: 20px;
+        padding-top: 20px;
+        text-align: justify;
+        margin-left: 400px;
+        color: wheat;
+      }
+
+      
+
+    
+      .title3{
+        color: wheat;
+      
+    }
+  
+    .author3{
+        color: wheat;
+        font-family: monospace;
+       
+    }
+  
+    .date3{
+        color: wheat;
+        font-family: monospace;
+      
+    }
+  
+    .rm3{
+        color: blue;
+        font-family: monospace;
+     
+    }
+
+    .contact{
+        color: white;
+    }
+
+    .hi{
+        color: goldenrod;
+    }
+    
+
+    .img2{
+        width: 300px;
+        margin-left: 600px;
+    }
+     
+    
+      
+    
+        
+ 
